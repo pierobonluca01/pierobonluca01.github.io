@@ -1,0 +1,57 @@
+:root {
+    --bgcolor: rgb(31, 31, 31);
+    --txtcolor: rgb(255, 255, 255);
+    --linkcolor: rgb(255, 255, 255);
+    --visitedcolor: rgb(255, 255, 255);
+}
+
+html, body {
+	font-size: 100%;
+	font-family: "Verdana", sans-serif;
+	line-height: 1.5em;
+	background-color: var(--bgcolor);
+	color: var(--txtcolor);
+	margin: auto;
+}
+
+header h1 {
+	font-size: 4em;
+	padding: 0.5em;
+	margin-top: 0.3em;
+}
+
+#menu {
+	float: left;
+	width: 25%;
+	font-size: 1.3em;
+	padding: 0.8em;
+}
+
+#menu h2 {
+    padding-left: 0.5em;
+}
+
+#menu a:link {
+	color: var(--linkcolor);
+}
+
+#menu a:visited {
+	color: var(--visitedcolor);
+}
+
+#menu ul {
+	list-style-type: none;
+}
+
+#menu ul li {
+	margin-top: 0.5em;
+}
+
+#currentlink {
+    color: var(--txtcolor);
+    padding-left: 1.5em;
+    background-image: url(img/arrow_forward_ios_FILL0_wght700_GRAD0_opsz48.svg);
+    background-repeat: no-repeat;
+    background-size: 1.2em;
+    background-position-y: center;
+}
